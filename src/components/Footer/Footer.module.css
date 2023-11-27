@@ -1,0 +1,34 @@
+.wrapper {
+  padding: 16px;
+  max-width: 100%;
+  margin: 32px auto;
+  text-align: center;
+}
+
+.wrapper p {
+  font-size: 0.75rem;
+  color: hsl(230deg 75% 88%);
+}
+
+.wrapper p a {
+  font-weight: 700;
+  text-decoration: none;
+  color: hsl(230deg 90% 95%);
+}
+.wrapper p a:hover {
+  text-decoration: underline;
+}
+.wrapper p:not(:last-of-type) {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 32px 16px 64px;
+    max-width: 500px;
+  }
+
+  .wrapper p {
+    font-size: 0.875rem;
+  }
+}
