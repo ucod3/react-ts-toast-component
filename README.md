@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Source and Original README](#source-and-original-readme)
+  - [Source and Original README](#source-and-original-readme)
 - [Enhancements to Initial Boilerplate](#enhancements-to-initial-boilerplate)
   - [Transition to Vite and TypeScript](#transition-to-vite-and-typescript)
   - [Refactoring and New Features](#refactoring-and-new-features)
